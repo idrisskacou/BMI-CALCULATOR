@@ -16,6 +16,8 @@
 		2D3C67C32A3AF73900E977E2 /* BMI_CALCULATORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C67C22A3AF73900E977E2 /* BMI_CALCULATORTests.swift */; };
 		2D3C67CD2A3AF73900E977E2 /* BMI_CALCULATORUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C67CC2A3AF73900E977E2 /* BMI_CALCULATORUITests.swift */; };
 		2D3C67CF2A3AF73900E977E2 /* BMI_CALCULATORUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C67CE2A3AF73900E977E2 /* BMI_CALCULATORUITestsLaunchTests.swift */; };
+		2D3C67E12A3B09CD00E977E2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C67E02A3B09CD00E977E2 /* ResultViewController.swift */; };
+		2DFD9DD12BF269D100B64E1B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD9DD02BF269D100B64E1B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		2D3C67C82A3AF73900E977E2 /* BMI CALCULATORUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI CALCULATORUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3C67CC2A3AF73900E977E2 /* BMI_CALCULATORUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_CALCULATORUITests.swift; sourceTree = "<group>"; };
 		2D3C67CE2A3AF73900E977E2 /* BMI_CALCULATORUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_CALCULATORUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D3C67E02A3B09CD00E977E2 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "BMI CALCULATOR/Viewa/ResultViewController.swift"; sourceTree = SOURCE_ROOT; };
+		2DFD9DD02BF269D100B64E1B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2DFD9DD22BF26A6700B64E1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,8 @@
 		2D3C679F2A3AF73800E977E2 = {
 			isa = PBXGroup;
 			children = (
+				2DFD9DD22BF26A6700B64E1B /* README.md */,
+				2DFD9DD02BF269D100B64E1B /* .gitignore */,
 				2D3C67AA2A3AF73800E977E2 /* BMI CALCULATOR */,
 				2D3C67C12A3AF73900E977E2 /* BMI CALCULATORTests */,
 				2D3C67CB2A3AF73900E977E2 /* BMI CALCULATORUITests */,
@@ -101,8 +108,8 @@
 			children = (
 				2D3C67AB2A3AF73800E977E2 /* AppDelegate.swift */,
 				2D3C67AD2A3AF73800E977E2 /* SceneDelegate.swift */,
-				2D3C67AF2A3AF73800E977E2 /* ViewController.swift */,
-				2D3C67B12A3AF73800E977E2 /* Main.storyboard */,
+				2D3C67DD2A3B056000E977E2 /* Viewa */,
+				2D3C67DC2A3B054300E977E2 /* Controllers */,
 				2D3C67B42A3AF73900E977E2 /* Assets.xcassets */,
 				2D3C67B62A3AF73900E977E2 /* LaunchScreen.storyboard */,
 				2D3C67B92A3AF73900E977E2 /* Info.plist */,
@@ -125,6 +132,23 @@
 				2D3C67CE2A3AF73900E977E2 /* BMI_CALCULATORUITestsLaunchTests.swift */,
 			);
 			path = "BMI CALCULATORUITests";
+			sourceTree = "<group>";
+		};
+		2D3C67DC2A3B054300E977E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C67E02A3B09CD00E977E2 /* ResultViewController.swift */,
+				2D3C67AF2A3AF73800E977E2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2D3C67DD2A3B056000E977E2 /* Viewa */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C67B12A3AF73800E977E2 /* Main.storyboard */,
+			);
+			path = Viewa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +215,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					2D3C67A72A3AF73800E977E2 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -231,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFD9DD12BF269D100B64E1B /* .gitignore in Resources */,
 				2D3C67B82A3AF73900E977E2 /* LaunchScreen.storyboard in Resources */,
 				2D3C67B52A3AF73900E977E2 /* Assets.xcassets in Resources */,
 				2D3C67B32A3AF73800E977E2 /* Main.storyboard in Resources */,
@@ -261,6 +286,7 @@
 				2D3C67B02A3AF73800E977E2 /* ViewController.swift in Sources */,
 				2D3C67AC2A3AF73800E977E2 /* AppDelegate.swift in Sources */,
 				2D3C67AE2A3AF73800E977E2 /* SceneDelegate.swift in Sources */,
+				2D3C67E12A3B09CD00E977E2 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +378,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -366,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -412,6 +439,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -420,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVG9YGW59X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BMI CALCULATOR/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVG9YGW59X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BMI CALCULATOR/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
